@@ -170,16 +170,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_hwc_vds=1 \
     debug.sf.hw=1 \
     debug.sf.disable_backpressure=1 \
-    debug.sf.early_app_phase_offset_ns=1500000 \
+    debug.sf.early_app_phase_offset_ns=11600000 \
     debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
-    debug.sf.early_phase_offset_ns=1500000 \
+    debug.sf.early_phase_offset_ns=11600000 \
     debug.cpurend.vsync=true \
     debug.hwui.use_buffer_age=false \
     ro.opengles.version=196610 \
     vendor.display.disable_skip_validate=1 \
     vendor.gralloc.enable_fb_ubwc=1 \
     vendor.display.enable_default_color_mode=0
+    debug.sdm.support_writeback=0 \
 
 # The default sf phase offset is set to 6ms, to avoid it be included into next
 # vsync threshold, set high fps early sf and next vsync threshold phase offset
